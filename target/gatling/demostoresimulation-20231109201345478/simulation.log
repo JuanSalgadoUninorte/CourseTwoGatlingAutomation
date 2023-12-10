@@ -1,0 +1,16 @@
+RUN	gatlingdemostore.DemostoreSimulation	demostoresimulation	1699560825478	test	3.9.5
+USER	DemostoreSimulation	START	1699560836256
+REQUEST		Load Home Page	1699560835942	1699560837234	OK	 
+REQUEST		Load About Us Page	1699560839819	1699560840001	OK	 
+REQUEST		Load Category Page - All Products	1699560842064	1699560842244	KO	Check extractor resolution crashed: No attribute named 'CategoryName' is defined
+REQUEST		Load Product Page - Casual Black-Blue	1699560844281	1699560844390	KO	Check extractor resolution crashed: No attribute named 'ProductDescription' is defined
+REQUEST		Load Product Page - Black and Red Glasses	1699560846397	1699560846497	KO	Check extractor resolution crashed: No attribute named 'ProductDescription' is defined
+REQUEST		Add Product To Cart	1699560846498	1699560846599	OK	 
+REQUEST		View Cart	1699560848603	1699560848697	OK	 
+REQUEST		View Cart Redirect 1	1699560848706	1699560848928	OK	 
+REQUEST		Login User	1699560850938	1699560851083	OK	 
+REQUEST		Login User Redirect 1	1699560851102	1699560851225	OK	 
+REQUEST		View Cart	1699560853236	1699560853400	OK	 
+REQUEST		Checkout	1699560855409	1699560855568	OK	 
+REQUEST		Checkout Redirect 1	1699560855571	1699560855683	OK	 
+USER	DemostoreSimulation	END	1699560855706
